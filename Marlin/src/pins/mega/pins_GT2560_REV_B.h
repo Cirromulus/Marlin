@@ -104,7 +104,6 @@
 #endif
 
 #if HAS_SPI_LCD
-
   #define BEEPER_PIN                          18
 
   #if ENABLED(NEWPANEL)
@@ -120,7 +119,7 @@
       #define LCD_PINS_D4                     16
       #define LCD_PINS_D5                     21
       #define LCD_PINS_D6                      5
-      #define LCD_PINS_D7                      6
+      #define LCD_PINS_D7                     36
       #define BTN_EN1                         42
       #define BTN_EN2                         40
     #endif
@@ -145,5 +144,4 @@
     #define SD_DETECT_PIN                     -1
 
   #endif // !NEWPANEL
-
 #endif // HAS_SPI_LCD
